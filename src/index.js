@@ -17,8 +17,8 @@ app.get("/", function(req, res) {
   formular += "<option value='LTL'>Litevsky litas</option>";
   formular += "</select>";
   formular += "<select name='Mena2'>";
-  formular += "<option value='USD'>Dolar</option>";
   formular += "<option value='GBP'>Libra</option>";
+  formular += "<option value='USD'>Dolar</option>";
   formular += "<option value='EUR'>Euro</option>";
   formular += "<option value='ZAR'>Jihoafricky rand</option>";
   formular += "<option value='LTL'>Litevsky litas</option>";
